@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "aiplayer",
+  "version": "${version}",
+  "name": "AI Player",
+  "description": "An autonomous Minecraft player controlled by an LLM (Claude / ChatGPT / Gemini / Kimi / Grok).",
+  "authors": ["you"],
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.example.aiplayer.AiPlayerMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
